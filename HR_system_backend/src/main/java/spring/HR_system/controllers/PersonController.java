@@ -16,7 +16,6 @@ import java.util.Map;
 @RequestMapping("/api/hr")
 @CrossOrigin(value = "http://localhost:3000")
 public class PersonController {
-    private static final Logger logger = LoggerFactory.getLogger(PersonController.class);
 
     @Autowired
     private PersonService personService;
